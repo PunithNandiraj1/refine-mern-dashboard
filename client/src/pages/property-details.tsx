@@ -40,7 +40,7 @@ const PropertyDetails = () => {
     const isCurrentUser = user.email === propertyDetails.creator.email;
 
     const handleDeleteProperty = () => {
-        const response = confirm(
+        const response = window.confirm(
             "Are you sure you want to delete this property?",
         );
         //eslint-disable-line
