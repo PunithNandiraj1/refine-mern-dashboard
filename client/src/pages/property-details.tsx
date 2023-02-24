@@ -43,6 +43,7 @@ const PropertyDetails = () => {
         const response = confirm(
             "Are you sure you want to delete this property?",
         );
+        //eslint-disable-line
         if (response) {
             mutate(
                 {
